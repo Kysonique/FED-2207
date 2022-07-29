@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <title>HTML Scavenger Hunt</Title>
+</head>
+<body>
+  <--!Answers to Scavenger Hunt-->
+    <ol>
+      <li><strong>Answer 1</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li> 
+      <li><strong>Answer 2</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 3</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 4</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 5</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 6</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 7</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 8</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 9</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 10</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+    </ol>
+</body>
+</HTML>
