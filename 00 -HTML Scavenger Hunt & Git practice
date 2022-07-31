@@ -14,7 +14,7 @@
       </li> 
       <li><strong>Answer 2</strong>
         <dt>
-          <dd></dd>
+          <dd>The alt attribute give the image an alternate message</dd>
         </dt>
       </li>
       <li><strong>Answer 3</strong>
@@ -39,7 +39,7 @@
       </li>
       <li><strong>Answer 7</strong>
         <dt>
-          <dd></dd>
+          <dd>The src attribute specifies the URL of an image where as the href attribute specifies the URL of the page a link goes to</dd>
         </dt>
       </li>
       <li><strong>Answer 8</strong>
