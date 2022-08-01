@@ -19,7 +19,8 @@
       </li>
       <li><strong>Answer 3</strong>
         <dt>
-          <dd></dd>
+          <dd> tables are structured with the opening TABLE tag, TR tag for the table row, 
+            TD opening and closing tag for table data, closting TR tag and Closing TABLE tag</dd>
         </dt>
       </li>
       <li><strong>Answer 4</strong>
@@ -29,12 +30,12 @@
       </li>
       <li><strong>Answer 5</strong>
         <dt>
-          <dd></dd>
+          <dd>p, ol, ul, dl and all headers</dd>
         </dt>
       </li>
       <li><strong>Answer 6</strong>
         <dt>
-          <dd></dd>
+           <dd></dd>
         </dt>
       </li>
       <li><strong>Answer 7</strong>
