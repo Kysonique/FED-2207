@@ -25,7 +25,9 @@
       </li>
       <li><strong>Answer 4</strong>
         <dt>
-          <dd></dd>
+          <dd>Block elements takes up the available space on a page vertically and horizontally,
+            inline elements displays in a line. 
+          </dd>
         </dt>
       </li>
       <li><strong>Answer 5</strong>
