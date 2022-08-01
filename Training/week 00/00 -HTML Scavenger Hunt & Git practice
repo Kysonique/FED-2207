@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <title>HTML Scavenger Hunt Answers</Title>
+</head>
+<body>
+  <!--Answers to Scavenger Hunt-->
+    <ol>
+      <li><strong>Answer 1</strong>
+        <dt>
+          <dd>The title tag determines what is displayed on a tab in a webrowser.</dd>
+          <dd>The title tag goes in the header of a HTML document</dd>
+        </dt>
+      </li> 
+      <li><strong>Answer 2</strong>
+        <dt>
+          <dd>The alt attribute give the image an alternate message</dd>
+        </dt>
+      </li>
+      <li><strong>Answer 3</strong>
+        <dt>
+          <dd> tables are structured with the opening TABLE tag, TR tag for the table row, 
+            TD opening and closing tag for table data, closting TR tag and Closing TABLE tag</dd>
+        </dt>
+      </li>
+      <li><strong>Answer 4</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 5</strong>
+        <dt>
+          <dd>p, ol, ul, dl and all headers</dd>
+        </dt>
+      </li>
+      <li><strong>Answer 6</strong>
+        <dt>
+           <dd>a, strong, i, b, mark, span</dd>
+        </dt>
+      </li>
+      <li><strong>Answer 7</strong>
+        <dt>
+          <dd>The src attribute specifies the URL of an image where as the href attribute specifies the URL of the page a link goes to</dd>
+        </dt>
+      </li>
+      <li><strong>Answer 8</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 9</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+      <li><strong>Answer 10</strong>
+        <dt>
+          <dd></dd>
+        </dt>
+      </li>
+    </ol>
+</body>
+</HTML>
