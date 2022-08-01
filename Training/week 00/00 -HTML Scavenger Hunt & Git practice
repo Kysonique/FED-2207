@@ -30,12 +30,12 @@
       </li>
       <li><strong>Answer 5</strong>
         <dt>
-          <dd>p, ol, ul, dl and all headers</dd>
+          <dd>example of block elements: p, ol, ul, dl and all headers</dd>
         </dt>
       </li>
       <li><strong>Answer 6</strong>
         <dt>
-           <dd>a, strong, i, b, mark, span</dd>
+           <dd>example of inline elements: a, strong, i, b, mark, span</dd>
         </dt>
       </li>
       <li><strong>Answer 7</strong>
@@ -52,7 +52,7 @@
       </li>
       <li><strong>Answer 9</strong>
         <dt>
-          <dd></dd>
+          <dd>The two main parts of HTML is the head and body.</dd>
         </dt>
       </li>
       <li><strong>Answer 10</strong>
