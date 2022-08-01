@@ -6,23 +6,27 @@
 <body>
   <!--Answers to Scavenger Hunt-->
     <ol>
+      <!--Answer 1-->
       <li><strong>Answer 1</strong>
         <dt>
           <dd>The title tag determines what is displayed on a tab in a webrowser.</dd>
           <dd>The title tag goes in the header of a HTML document</dd>
         </dt>
       </li> 
+      <!--Answer 2-->
       <li><strong>Answer 2</strong>
         <dt>
           <dd>The alt attribute give the image an alternate message</dd>
         </dt>
       </li>
+      <!--Answer 3-->
       <li><strong>Answer 3</strong>
         <dt>
           <dd> tables are structured with the opening TABLE tag, TR tag for the table row, 
             TD opening and closing tag for table data, closting TR tag and Closing TABLE tag</dd>
         </dt>
       </li>
+      <!--Answer 4-->
       <li><strong>Answer 4</strong>
         <dt>
           <dd>Block elements takes up the available space on a page vertically and horizontally,
@@ -30,21 +34,25 @@
           </dd>
         </dt>
       </li>
+      <!--Answer 5-->
       <li><strong>Answer 5</strong>
         <dt>
           <dd>example of block elements: p, ol, ul, dl and all headers</dd>
         </dt>
       </li>
+      <!--Answer 6-->
       <li><strong>Answer 6</strong>
         <dt>
            <dd>example of inline elements: a, strong, i, b, mark, span</dd>
         </dt>
       </li>
+      <!--Answer 7-->
       <li><strong>Answer 7</strong>
         <dt>
           <dd>The src attribute specifies the URL of an image where as the href attribute specifies the URL of the page a link goes to</dd>
         </dt>
       </li>
+      <!--Answer 8-->
       <li><strong>Answer 8</strong>
         <dt>
           <dd>The HTML element is made up by an opening tag, content, and closing tag.
@@ -52,11 +60,13 @@
           </dd>
         </dt>
       </li>
+      <!--Answer 9-->
       <li><strong>Answer 9</strong>
         <dt>
           <dd>The two main parts of HTML is the head and body.</dd>
         </dt>
       </li>
+      <!--Answer 10-->
       <li><strong>Answer 10</strong>
         <dt>
           <dd>Script tags can be placed in both the header and body</dd>
