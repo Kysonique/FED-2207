@@ -1,0 +1,8 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer{
+    align-self: flex-end;
+}
