@@ -2,15 +2,24 @@
 <html lang="en">
     <head>
         <title>Sign Up Desktop</title>
+
+        <link rel="stylesheet" href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Assignments\02 Assignment 4 html\Stylesheets\DSignup.css">
+
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">    
+
     </head>
 
-    <body>
-        <img class="background" src="C:\Users\kyras\OneDrive\Pictures\hhpic.JPEG" width="50%" height="50%">
+    <body id="grid" class="grid">
+        <div id="bkgrd">
+            <img class="background" src="C:\Users\kyras\OneDrive\Pictures\hhpic.JPEG" width="100%" height="100%">
+        </div>
 
-        <article>
+        <article id="midpage">
             <section>
+
                 <p>
-                    <img src="C:\Users\kyras\OneDrive\Pictures\blueOP.png" width="10%" height="10%">
+                    <img src="C:\Users\kyras\OneDrive\Pictures\blueOP.png" width="20%" height="20%">
                 </p>
 
                 <h3>Sign Up!</h3>
@@ -18,62 +27,67 @@
             </section>
  
             <section id="Form">
-                <form>
-                    <div class="form-input">                 
-                        <input name="name" type="name" placeholder="Last, First name">
-                    </div> 
-                    
-                    <div class="form-input">                 
-                        <input birthday="birthday" type="birthday" placeholder="Month/Day/Year">
-                    </div>
-                        <p>Birthday will not be displayed.</p> 
-                    
-                    <div class="form-input">                 
-                        <input email="email" type="email" placeholder="Email address">
-                    </div>
-
-                    <div class="form-input">                 
-                        <input number="number" type="tel" placeholder="Phone number">
-                    </div>
-
-                    <p>
-                        <h4>Gender:</h4>
-                            <button type="button">Male</button>
-                            <button type="button">Female</button>
-                            <button type="button">Non-binary</button>
-                    </p>
-
-                    <div class="form-input">                 
-                        <input name="name" type="text" placeholder="Create username">
-                    </div>
-
-                    <div class="form-input">                 
-                        <input name="name" type="text" placeholder="Create password">
-                    </div>
-                
-                    <p>
+                <div class="form-input">
+                    <input class="form-control form-control-lg" type="text" placeholder="First Last name" aria-label=".form-control-lg example">
+                  </div>
+        
+                <div class="form-input">
+                    <input class="form-control form-control-lg" type="text" placeholder="Month/Day/Year" aria-label=".form-control-lg example">
+                  </div>
+                  <alt>Birthday will not be displayed.</alt>
+        
+                  <div class="form-input">
+                    <input class="form-control form-control-lg" type="text" placeholder="Email Adress" aria-label=".form-control-lg example">
+                  </div>
+        
+                  <div class="form-input">
+                    <input class="form-control form-control-lg" type="text" placeholder="Phone number" aria-label=".form-control-lg example">
+                  </div> 
+        
+                    <alt>
+                        <strong>Gender:</strong>
+                      </alt>
+                      <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-outline-secondary btn-sm">Male</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm">Female</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm">Non-binary</button>
+                      </div>
+            
+                      <div class="form-input">
+                        <input class="form-control form-control-lg" type="text" placeholder="Create username" aria-label=".form-control-lg example">
+                      </div>
+                      <alt>
                         Password minimum 8 digits with special characters !@#$%
-                    </p>
-
-                    <div class="form-input">                 
-                        <input name="name" type="text" placeholder="Re-enter password">
+                      </alt>
+            
+                      <div class="form-input">
+                        <input class="form-control form-control-lg" type="text" placeholder="Create password" aria-label=".form-control-lg example">
+                      </div>
+            
+            
+                      <div class="form-input">
+                        <input class="form-control form-control-lg" type="text" placeholder="Re-enter password" aria-label=".form-control-lg example">
+                      </div>
+            
+                      <button type="button" class="btn btn-link">
+                        Add profile picture
+                      </button>
+                            
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary btn-sm" for="btnradio1">Agree</label>
+                        
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-primary btn-sm" for="btnradio2">Decline</label>
                     </div>
+      
+                    <p id="warninglabel">Terms and conditions apply, agree to terms.</p>
 
-                    <button type="button">Add profile picture</button>
-                    
-                    <p>
-                        <button type="button"></button>
-                        <label for="agree">Agree to terms and conditions</label>
-                    </p>
-
-                    <p>
-                        <button type="button"></button>
-                        <label for="decline">Decline to terms and conditions</label>
-                    </p> 
-
-                    <button>
-                        <a href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Assignments\02 Assignment 4 html\css\LoginDesk.html">Submit</a>
-                    </button>    
+                    <button type="button" class="btn btn-info btn-lg">
+                        <a
+                          href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Assignments\02 Assignment 4 html\destop css\DLogin.html">Submit form
+                        </a>
+                    </button>      
                 </form>
             </section>
         </article>    

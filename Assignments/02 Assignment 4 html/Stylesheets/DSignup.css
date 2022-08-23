@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid div {
+    margin: 2%;
+    width: 50%;
+}
+
+#header div{
+    width: 100%;
+    max-height: fit-content;
+}
