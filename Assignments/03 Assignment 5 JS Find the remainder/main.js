@@ -3,15 +3,24 @@ var largeNumber;
     largeNumber = 3467;
 
 var smallNumber;
-    smallNumber = 325;
+    smallNumber = 315;
+
 
 console.log("What is 3467 divided by 325 (using subraction)");
 
 // large number minus the smaller number until can't subract anymore
 
-function findTheRemainder() {
-    return 3467-325;
+function workingTotal() {
+    return largeNumber-smallNumber;
 }
 
-console.log("The first answer is:" + findTheRemainder())
+console.log("The first answer is:" + workingTotal());
 
+// repeating the function until 0 is reached
+function minus() {
+    if (workingTotal() > smallNumber){
+        return workingTotal()-(minus()-1);
+    }
+}
+
+console.log(minus())
