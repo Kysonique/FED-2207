@@ -17,10 +17,4 @@ function workingTotal() {
 console.log("The first answer is:" + workingTotal());
 
 // repeating the function until 0 is reached
-function minus() {
-    if (workingTotal() > smallNumber){
-        return workingTotal()-(minus()-1);
-    }
-}
 
-console.log(minus())
