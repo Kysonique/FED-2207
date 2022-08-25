@@ -10,7 +10,7 @@ function countdown(largeNumber){
 
         let workingTotal = largeNumber - 315;
 
-        if (workingTotal > 316) {
+        if (workingTotal > 0) {
             countdown(workingTotal);
         }
     }, 100);
