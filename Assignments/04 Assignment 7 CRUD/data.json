@@ -1,0 +1,49 @@
+{
+    "users": [
+        {
+            "firstname" : "Peggy",
+            "lastname" : "Suu",
+            "emailaddress" : "MsPeggySuu@gmail.com",
+            "phonenumber" : "5626588188",
+            "zipcode" : "90262",
+            "custumid" : "123",
+            "points" : [
+                {
+                    "recentpoints" : "1",
+                    "totalpoints" : "1"
+                }
+            ]
+        },
+        {
+
+            "firstname" : "Chun",
+            "lastname" : "Li",
+            "emailaddress" : "ChunLi@gmail.com",
+            "phonenumber" : "5626588189",
+            "zipcode" : "90263",
+            "custumid" : "1234",
+            "points" : [
+                {
+                    "recentpoints" : "1",
+                    "totalpoints" : "1"
+                }
+            ]
+        },
+        {
+
+            "firstname" : "Mike",
+            "lastname" : "Epps",
+            "emailaddress" : "MikeEpps@gmail.com",
+            "phonenumber" : "5626588199",
+            "zipcode" : "90264",
+            "custumid" : "12345",
+            "points" : [
+                {
+                    "recentpoints" : "1",
+                    "totalpoints" : "1"
+                }
+            ]
+            
+        }
+    ]
+}

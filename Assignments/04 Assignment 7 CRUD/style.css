@@ -1,2 +1,28 @@
 
+.table1 th, td{
+    border: 1px black solid;
+    margin: 1px;
+    height: fit-content;
+    width: fit-content;
+}
 
+
+  .alpha {
+    margin: 4px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #600b77;
+  }
+
+  .newbutton {
+    cursor: pointer;
+    border: 2px #600b77 solid;
+    border-radius: 10px;
+    height: fit-content;
+    width: 18%;
+    background-color: yellow;
+    font-size: 18px;
+    color: #600b77;
+    font-weight: bold;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
