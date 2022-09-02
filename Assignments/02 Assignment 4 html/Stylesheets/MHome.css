@@ -1,0 +1,24 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+
+#post1 {
+    border: 1px black solid;
+    border-radius: 5%;
+    align-items: center;
+}
+
+#innerdiv {
+    border: 1px black solid;
+    border-radius: 5%;    
+} 
+
+#img1 div{
+    height: ;
+    width: 25%;
+}
+

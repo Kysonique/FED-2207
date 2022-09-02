@@ -2,8 +2,8 @@
 .table1 th, td{
     border: 1px black solid;
     margin: 1px;
-    height: fit-content;
-    width: fit-content;
+    height: "";
+    width: "";
 }
 
 
@@ -18,7 +18,7 @@
     cursor: pointer;
     border: 2px #600b77 solid;
     border-radius: 10px;
-    height: fit-content;
+    height: 10%;
     width: 18%;
     background-color: yellow;
     font-size: 18px;
