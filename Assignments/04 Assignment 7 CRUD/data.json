@@ -1,5 +1,6 @@
 {
     "users": [
+        
         {
             "firstname" : "Peggy",
             "lastname" : "Suu",
@@ -14,8 +15,8 @@
                 }
             ]
         },
-        {
 
+        {
             "firstname" : "Chun",
             "lastname" : "Li",
             "emailaddress" : "ChunLi@gmail.com",
@@ -29,8 +30,8 @@
                 }
             ]
         },
-        {
 
+        {
             "firstname" : "Mike",
             "lastname" : "Epps",
             "emailaddress" : "MikeEpps@gmail.com",

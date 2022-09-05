@@ -5,11 +5,13 @@
     justify-items: flex-start;
 }
 
-
-#post1 {
+#img1 {
     border: 1px black solid;
     border-radius: 5%;
-    align-items: center;
+    height: 15%;
 }
 
-
+#bio{
+    border: 1px black solid;
+    border-radius: 5%;
+}
