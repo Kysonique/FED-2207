@@ -1,4 +1,18 @@
 .grid{
     display: grid;
-    grid-auto-flow: column;
+    grid-column: auto auto auto;
+}
+
+#sect1 {
+    grid-column-start: 1;
+    font-size: 20px;
+    
+}
+
+#sect2 {
+    grid-column-start: 2;
+}
+
+#sect3 {
+    grid-column-start: 3;
 }
