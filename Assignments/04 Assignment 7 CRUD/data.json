@@ -1,13 +1,13 @@
 {
-    "users": [
+    "users":[
         
-        {
+        {  
             "firstname" : "Peggy",
             "lastname" : "Suu",
             "emailaddress" : "MsPeggySuu@gmail.com",
             "phonenumber" : "5626588188",
             "zipcode" : "90262",
-            "custumid" : "123",
+            "uid" : "1",
             "points" : [
                 {
                     "recentpoints" : "1",
@@ -22,7 +22,7 @@
             "emailaddress" : "ChunLi@gmail.com",
             "phonenumber" : "5626588189",
             "zipcode" : "90263",
-            "custumid" : "1234",
+            "uid" : "2",
             "points" : [
                 {
                     "recentpoints" : "1",
@@ -37,7 +37,7 @@
             "emailaddress" : "MikeEpps@gmail.com",
             "phonenumber" : "5626588199",
             "zipcode" : "90264",
-            "custumid" : "12345",
+            "uid" : "3",
             "points" : [
                 {
                     "recentpoints" : "1",

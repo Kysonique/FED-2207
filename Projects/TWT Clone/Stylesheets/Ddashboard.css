@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+    
+#div1 {
+    margin:2%;
+}
+
+#imgad {
+    border: 1px blue solid;
+    width: 75%;
+    height: 20%;
+    margin-bottom: 3%;
+}

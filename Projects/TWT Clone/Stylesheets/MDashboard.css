@@ -1,0 +1,17 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+#img1 {
+    border: 1px black solid;
+    border-radius: 5%;
+    height: 15%;
+}
+
+#bio{
+    border: 1px black solid;
+    border-radius: 5%;
+}

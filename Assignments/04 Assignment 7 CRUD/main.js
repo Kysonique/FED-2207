@@ -2,18 +2,16 @@
 console.log('JS connected')
 
 $(document).ready(function(){
-
+  endpointUrl = "./data.json"
     $.ajax({
-      Type: "GET",
-      datatype: "json",
-      url: "data.json",
-    
-      Sucess : function (data, status, xhr){
-        console.log('data')
-
-      }
+      type: "GET",
+      dataType: "json",
+      url: "./data.json",
+      success : function (data, status, xhr){
+      console.log('data')
+     }
       
-    });
+    })
 
 
 

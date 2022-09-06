@@ -1,0 +1,14 @@
+.flex div{
+    width: fit-content;
+    height: fit-content;
+    padding: 1%;
+    margin: 1%;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+

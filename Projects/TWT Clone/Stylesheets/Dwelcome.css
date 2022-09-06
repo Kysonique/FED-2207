@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.footer{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.welcome{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}

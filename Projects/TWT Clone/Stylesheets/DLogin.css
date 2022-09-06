@@ -1,0 +1,8 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#form1 div{
+    width: 50%;
+}
