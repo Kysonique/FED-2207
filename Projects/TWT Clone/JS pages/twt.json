@@ -7,7 +7,8 @@
             "emailAddress" : "AvaBo@email.com",
             "phoneNumber" : "1234567899",
             "userName" : "SoTech1",
-            "password" : "$Tech100"
+            "password" : "$Tech100",
+            "uid" : "0"
         },
 
         {
@@ -17,7 +18,8 @@
             "emailAddress" : "IvaBo@email.com",
             "phoneNumber" : "1234567890",
             "userName" : "Tech1",
-            "password" : "$Tech100"
+            "password" : "$Tech100",
+            "uid" : "1"
         },
 
         {
@@ -27,7 +29,16 @@
             "emailAddress" : "kivaBo@email.com",
             "phoneNumber" : "1234567891",
             "userName" : "TheTech1",
-            "password" : "$Tech100"
+            "password" : "$Tech100",
+            "uid" : "2"
+        }
+    ],
+
+    "posts" : [
+        {
+            "message" : "text",
+            "uid" : ""
+
         }
     ]
 }

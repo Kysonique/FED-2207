@@ -1,3 +1,8 @@
+.div1 {
+    background-color: rgb(154, 154, 254);;
+    color: aliceblue;
+}
+
 .flex div{
     width: fit-content;
     height: fit-content;
@@ -11,4 +16,6 @@
     justify-items: center;
     align-items: center;
 }
+
+
 

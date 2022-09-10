@@ -13,5 +13,14 @@
 
 #bio{
     border: 1px black solid;
-    border-radius: 5%;
+    border-radius: 3%;
+    height: fit-content;
+    background-color: white;
+}
+
+.body{
+    background-color: rgb(154, 154, 254);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }

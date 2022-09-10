@@ -1,104 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Desktop dashboard</title>
+  <head>
+    <title>Desktop dashboard</title>
 
-        <link rel="stylesheet" href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Assignments\02 Assignment 4 html\Stylesheets\Ddashboard.css">
+    <link
+      rel="stylesheet"
+      href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Projects\TWT Clone\Stylesheets\Ddashboard.css"
+    />
 
-        <!--bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">    
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
 
-    </head>
-
-    <body id="grid" class="grid">
-         <!--Leftside taskbar links to pages and popup windows for notificatiions etc-->      
-        <nav id="taskbar">
-            <div id="imglogo">
-            <img src="C:\Users\kyras\OneDrive\Pictures\blueOP.png" width="45%" height="30%">
-            </div>
-
-            <ul id="navbar">
-                <li><a href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Assignments\02 Assignment 4 html\destop css\DHomepage.html">Home</a></li>
-
-                <li><a href="search">Search</a></li>
-                <li><a href="notifications">Notifications</a></li>
-                <li><a href="followers">Followers</a></li>
-                <li><a href="following">Following</a></li>
-                <li><a href="messages">Messages</a></li>
-            
-                <li><button type="button" class="btn btn-outline-danger"><a href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Assignments\02 Assignment 4 html\destop css\DWelcome.html">Sign out</a></button></li>
-            </ul>
-           <p><strong>Display Name </strong>@Username</p> 
-        </nav> 
-         
-         <!--Middle of page-->
-         <article id="grid1">
-            <section id="header">
-                <img src="C:\Users\kyras\OneDrive\Pictures\hhpic.JPEG" width="50%" height="50%">
-
-                <button type="button" class="btn btn-outline-warning btn-sm">Edit profile</button>
+  <body id="grid" class="grid">
     
-            </section>
-            <section id="bio">
-                <img src="C:\Users\kyras\OneDrive\Pictures\opalLogop.png" width="20%" height="20%">
-                <p><strong>Display Name</strong>@Username</p>
-                <p>This area is for the bio. Users can list details, hobbies, and interest.</p>
+    <!--Leftside taskbar links to pages and popup windows for notificatiions etc-->
+    <section class="grid">
+      <div id="taskbar">
+        <div id="imglogo">
+          <img
+          src="C:\Users\kyras\OneDrive\Pictures\blueOP.png"
+          width="100%"
+          height="100%"
+          />
+        </div>
+        
+        <div id="navList">
+          <ul id="navbar">
+            <li><a href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Projects\TWT Clone\destop pages\DWelcome.html">
+              <button type="button" class="btn btn-outline-primary btn-sm">Home</button>
+              </a></li>
+            
+            <li><a href="search">
+              <button type="button" class="btn btn-outline-primary btn-sm">Search</button>
+            </a></li>
 
-              <div id="div1">
-                <a href="location">Location</a>
-                <a href="following">Like</a>
-                <a href="followers">Share</a>
-              </div>    
-                
-                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                    <label class="btn btn-outline-primary" for="btnradio1">Your Post</label>
-                    
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btnradio2">Interactions</label>
-                    
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btnradio3">Gallery</label>
+            <li><a href="notifications">
+              <button type="button" class="btn btn-outline-primary btn-sm">Notifications</button>
+            </a></li>
+
+            <li><a href="followers">
+              <button type="button" class="btn btn-outline-primary btn-sm">Followers</button>
+            </a></li>
+
+            <li><a href="following">
+              <button type="button" class="btn btn-outline-primary btn-sm">Following</button>
+            </a></li>
+
+            <li><a href="messages">
+              <button type="button" class="btn btn-outline-primary btn-sm">Messages</button>
+            </a></li>
+            
+            <li><a href="C:\Users\kyras\OneDrive\Desktop\FED-2207\Projects\TWT Clone\destop pages\DWelcome.html">
+                <button type="button" class="btn btn-outline-danger btn-sm">Sign out</button>
+            </a></li>
+          </ul>
+        </div>
+        <p><strong>Display Name</strong> @Username</p>
+      </div>
+    </section>
+    
+    <!--Middle of page-->
+    <section id="bio" class="grid">
+      <div id="bio1">
+        <div>
+          <img
+            src="C:\Users\kyras\OneDrive\Pictures\hhpic.JPEG"
+            width="100%"
+            height="50%"
+          />
+        </div>
+        
+        <button id="edit-btn" type="button" class="btn btn-outline-warning btn-sm">
+          Edit profile
+        </button>
+      
+      
+        <div id="bioSection">
+          <img
+            src="C:\Users\kyras\OneDrive\Pictures\opalLogop.png"
+            width="20%"
+            height="20%"
+          />
+          <p><strong>Display Name</strong>@Username</p>
+          <p>
+            This area is for the bio. Users can list details, hobbies, and
+            interest.
+          </p>
+
+          <div id="div1">
+            <a href="location">Location</a>
+            <a href="following">Like</a>
+            <a href="followers">Share</a>
+          </div>
+
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="btnradio"
+              id="btnradio1"
+              autocomplete="off"
+              checked
+            />
+            <label class="btn btn-outline-primary" for="btnradio1"
+              >Your Post</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="btnradio"
+              id="btnradio2"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="btnradio2"
+              >Interactions</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="btnradio"
+              id="btnradio3"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="btnradio3">Gallery</label>
+          </div>
+        </div>
+
+        <!--post cards-->
+        <div id="postcard" class="postcard">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <img
+                  src="C:\Users\kyras\OneDrive\Pictures\opalLogop.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h5 class="card-title">Display Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@Username</h6>
+
+                <div class="input-group mb-3">
+                  <input id="userMessage"
+                    type="text"
+                    class="form-control"
+                    placeholder="Type Message Here"
+                    aria-label="Create Post"
+                    aria-describedby="button-addon2"
+                  />
+                  <button id="submitPost"
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Post
+                  </button>
                 </div>
-            </section>
 
-            <section id="userpost">
-                <div id="div2" class="div-container">
-                    <img src="C:\Users\kyras\OneDrive\Pictures\opalLogop.png" width="10%" height="10%">
-                    <p><strong>Display Name</strong>@Username</p> 
-    
-                    <p>These are old post by the user. The interactions and gallery tabs will display here.</p>
-                    <p><img src="C:\Users\kyras\OneDrive\Pictures\bbpic.jpg" width="15%" height="15%"></p>
-    
-                    <button type="button" class="btn btn-secondary btn-sm">Comment</button>
-                    <button type="button" class="btn btn-secondary btn-sm">Like</button>
-                    <button type="button" class="btn btn-secondary btn-sm">Share</button>
-            </section>
-         </article>
-
-         <!--Right side toolbar-->           
-         <aside id="Advertising">
-
-            <div id="imgad">
-                <img src="C:\Users\kyras\OneDrive\Pictures\haloflyer.jpg" width="100%" height="100%">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  style="
+                    --bs-btn-padding-y: 0.25rem;
+                    --bs-btn-padding-x: 0.5rem;
+                    --bs-btn-font-size: 0.75rem;
+                  "
+                >
+                  img
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  style="
+                    --bs-btn-padding-y: 0.25rem;
+                    --bs-btn-padding-x: 0.5rem;
+                    --bs-btn-font-size: 0.75rem;
+                  "
+                >
+                  gif
+                </button>
+              </div>
             </div>
-            <alt>ad</alt>
 
-            <ul><strong>Trending topics</strong>
-                <li>Popular music</li>
-                <li>Black Women in tech</li>
-                <li>NASCAR</li>
-                <li>Cats</li>
-            </ul>
-            
-            <img src="C:\Users\kyras\OneDrive\Pictures\pntbrush.png" width="10%" height="10%">
-            <alt>ad</alt>
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <img
+                  src="C:\Users\kyras\OneDrive\Pictures\opalLogop.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <h5 class="card-title">Display Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@Username</h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </p>
 
-            <p>Advertising page with trending topics. Links are outliined in blue.</p>
+              <button id="deletePost"
+                  type="button"
+                  class="btn btn-outline-primary"
+                  style="
+                    --bs-btn-padding-y: 0.25rem;
+                    --bs-btn-padding-x: 0.5rem;
+                    --bs-btn-font-size: 0.75rem;">
+                  delete
+              </button>
+            </div>
+          </div>
+      </div>
+    </section>
 
-            <button type="button" class="btn btn-light">Create New Messages</button>
+    <!--Right side toolbar-->
+    <section id="advertising" class="grid">
+      <div id="mainDiv">
+        <div id="imgad">
+          <img
+            src="C:\Users\kyras\OneDrive\Pictures\haloflyer.jpg"
+            width="100%"
+            height="50%"
+          />
+        </div>
+        <alt>ad</alt>
 
-         </aside>    
+        <div id="adlist">
+        <ul>
+          <strong>Trending topics</strong>
+          <li>Popular music</li>
+          <li>Black Women in tech</li>
+          <li>NASCAR</li>
+          <li>Cats</li>
+        </ul>
+        </div>
 
-    </body>
+        <div>
+        <img
+          src="C:\Users\kyras\OneDrive\Pictures\pntbrush.png"
+          width="30%"
+          height="30%"
+        />
+        </div>
+        <alt>ad</alt>
+
+        <p>Advertising page with trending topics. Links are outliined in blue.</p>
+
+        <button type="button" class="btn btn-light">Create New Messages</button>
+
+
+      </div>
+    </section>
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--JS-->
+    <script src="C:\Users\kyras\OneDrive\Desktop\FED-2207\Projects\TWT Clone\JS pages\twt.js"></script>
+  </body>
+
 </html>

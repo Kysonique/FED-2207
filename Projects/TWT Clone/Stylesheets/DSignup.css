@@ -5,11 +5,16 @@
 
 .grid div {
     margin: 2%;
-    width: 50%;
+    width: 80%;
 }
 
 #bkgrd {
     width: 100%;
     height: 90%;
+}
+
+#info {
+    grid-column: 2;
+    vertical-align: bottom;
 }
 
