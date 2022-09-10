@@ -1,0 +1,44 @@
+{
+    "users" : [
+        {
+            "firstName" : "Ava",
+            "lastName" : "Bo",
+            "birthday" : "03/03/2003",
+            "emailAddress" : "AvaBo@email.com",
+            "phoneNumber" : "1234567899",
+            "userName" : "SoTech1",
+            "password" : "$Tech100",
+            "uid" : "0"
+        },
+
+        {
+            "firstName" : "Iva",
+            "lastName" : "Bo",
+            "birthday" : "03/04/2003",
+            "emailAddress" : "IvaBo@email.com",
+            "phoneNumber" : "1234567890",
+            "userName" : "Tech1",
+            "password" : "$Tech100",
+            "uid" : "1"
+        },
+
+        {
+            "firstName" : "kiva",
+            "lastName" : "Bo",
+            "birthday" : "03/05/2003",
+            "emailAddress" : "kivaBo@email.com",
+            "phoneNumber" : "1234567891",
+            "userName" : "TheTech1",
+            "password" : "$Tech100",
+            "uid" : "2"
+        }
+    ],
+
+    "posts" : [
+        {
+            "message" : "text",
+            "uid" : ""
+
+        }
+    ]
+}

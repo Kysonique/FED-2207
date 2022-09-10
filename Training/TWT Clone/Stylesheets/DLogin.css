@@ -1,0 +1,9 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: auto 40%;
+}
+
+#formDiv {
+    width: 60%;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+.flex div{
+    width: 80%;
+    height: fit-content;
+    padding: 1%;
+    margin: 2%;
+    justify-content: center;
+}
+
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#info {
+    width: fit-content;
+    height: fit-content;
+}
