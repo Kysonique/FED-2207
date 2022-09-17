@@ -1,0 +1,29 @@
+.grid {
+    column-count: 3;
+    column-gap: 40px;
+    
+  }
+
+/* .grid {
+    display: grid;
+    grid-template-columns: auto auto 25%;
+    
+} */
+
+/* #mainDiv {
+    background-color: rgb(168, 202, 237);
+    border: 2px lightskyblue solid;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#taskbar {
+    width: 60%;
+    background-color: rgb(168, 202, 237);
+    border: 2px lightskyblue solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+} */
+

@@ -1,7 +1,8 @@
 console.log("js connected") //verifying consolelog
 
+var state = [] //state variable to show data as an 
 
-var state = {} //state variable to show data as an array
+//var endpointURL = "https://twt-clone-2ff6a-default-rtdb.firebaseio.com/.json"
 
 function newUser(firstname, lastname, birthday, email, phone, username, password) {
   this.firstname = firstname
@@ -16,11 +17,16 @@ function newUser(firstname, lastname, birthday, email, phone, username, password
 
 function newPost(message) {
   this.message = message
+  
+
 }
 
-//start of js document
+
+  //start of js document
 $(document).ready(function(){
-//new user//
+
+  //new user//
+  const $postcard = $("#postcard")
   const $form1Table = $("#form1-table") //id of form
   const $firstName = $("#firstName-input")
   const $lastName = $("#lastName-input")
@@ -30,6 +36,7 @@ $(document).ready(function(){
   const $username = $("#username-input")
   const $password = $("#password-input")
   const $submitBtn = $("#submit-btn")
+  
 
       //ajax get call to pull user data 
     $.ajax({
@@ -49,13 +56,15 @@ $(document).ready(function(){
         //   )
         // })
 
-      }
-    });
-    
+      } 
+      
+  
+    })
+  
 
     
+    //validate text fields
     function handleSubmit() {
-      //validate text fields
       if ($firstName.val() === "" || $lastName.val() === "" || $birthday.val() === "" || $emailInput.val() === "" || $phoneNumber.val() === "" || $username.val() === "" || $password.val() === ""){
         alert ('Must complete all fields')
       } else{
@@ -83,13 +92,13 @@ $(document).ready(function(){
         newUserAPI(newForm)
       }
     }
-
+  //submit click event
     $submitBtn.click((event) => {
       event.preventDefault()
       handleSubmit()
     })
 
-    //post data to backend api
+  //post data to backend api
     function newUserAPI(newUserObject){
       $.ajax({
         type: "POST",
@@ -103,16 +112,17 @@ $(document).ready(function(){
   
 
     
-// $emailInput.keyup(() => {
-//   console.log($emailInput.val())
+  // $emailInput.keyup(() => {
+  //   console.log($emailInput.val())
 
 
 
     //post cards//
-    const $postcard = $("#postcard")
     const $usermessage = $("#userMessage")
     const $deletepost = $("#deletePost")
     const $submitpost = $("#submitPost")
+    const $editpost = $("#editPost")
+    
   
       //ajax get call to pull post data 
     $.ajax({
@@ -122,16 +132,41 @@ $(document).ready(function(){
       success: function (data, status, xhr){
         console.log(data.posts);
         state.posts = [];
-        for (field in data){
-          let newField = data[field]
-          state.posts.push(new newPost(newField.message))
+
+        for (form in data){
+          let newForm = data[form]
+          state.posts.push(new newPost(newForm.message))
+          //state.posts[state.posts.lenght - 1]
         }
-        //   data.posts.forEach((field) => {
-        //   state.posts.push(new newPost(field.message))
-        // })
+      }
+    }).then(() => {
+
+      for (form in state.posts) {
+        let newForm = state.posts[form]
+        $postcard.append(`
+          <div id="entry-${(form)}" class="card" style="width: 18rem;">
+          <div class="card-body">
+              <img src="" class="card-img-top" alt="...">
+              <h5 class="card-title">Display Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">@Username</h6>
+              <p class="card-text"> ${(newForm.message)} </p>
+   
+              <button data-delete="form" type="button" class="btn btn-outline-primary"style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Delete</button>
+  
+              <button data-edit="form" type="button" class="btn btn-outline-primary"style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">edit</button>
+          </div>
+        </div>
+      `)
       }
     })
-  
+       
+       //.then(() => {
+      //   state.posts.forEach((newField) => {
+      //     })
+      // })
+
+
+
 
     //handle function for posts button
     function handlePosts() {
@@ -148,10 +183,10 @@ $(document).ready(function(){
         //clear input fields
         $usermessage.val("")
         //post data to API
-        newPostsAPI(newMessage)
+        postToPostsAPI(newMessage)
         //add data to post
         $postcard.append(`
-        <div id="" class="card" style="width: 18rem;">
+        <div id="entry-${field}" class="card" style="width: 18rem;">
         <div class="card-body">
             <img src="" class="card-img-top" alt="...">
             <h5 class="card-title">Display Name</h5>
@@ -159,6 +194,8 @@ $(document).ready(function(){
             <p class="card-text"> ${(message)} </p>
 
             <button id="deletePost" type="button" class="btn btn-outline-primary"style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Delete</button>
+
+            <button id="editPost" type="button" class="btn btn-outline-primary"style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">edit</button>
         </div>
     </div>
 
@@ -171,27 +208,59 @@ $(document).ready(function(){
       handlePosts()
     })
 
-  //   $usermessage.keyup(() => {
-  // console.log($usermessage.val()) })
+    //   $usermessage.keyup(() => {
+    // console.log($usermessage.val()) })
 
 
-  //post data to backend api
-    function newPostsAPI(newPostsObject){
+    //post data to backend api
+    function postToPostsAPI(newPostsObj){
     $.ajax({
       type: "POST",
       url: "https://twt-clone-2ff6a-default-rtdb.firebaseio.com/posts.json",     
-      data: JSON.stringify(newPostsObject),
+      data: JSON.stringify(newPostsObj),
       success:(data) => console.log(data.posts),
-      dataType: "json",
+      dataType: "json"
 
       }
     )}
+
+    // //edit post
+    this.patch = function (editMessage) {
+      $.ajax({
+        url: "https://twt-clone-2ff6a-default-rtdb.firebaseio.com/posts.json",
+        data: JSON.stringify(newObject),
+        type: "PATCH", // // Adds or modifies the object at that endpoint based on the data submitted
+        success: function () {
+          alert(`Item Updated!!!`);
+        },
+      });
+    }
   
+    $editpost.click((event) => {
+      event.preventDefault()
+      editMessage()
+    })
+
+    //delete fxn
+    this.delete = function (id) {
+      $.ajax({
+        url: `${this.endpointUrl}movies/${id}.json`,
+        type: "DELETE",
+        success: function () {
+          alert(`Item DELETED!!!`);
+        },
+      });
+    }
+
+    $deletepost.click((event) => {
+      console.log('deleted')
+    })
     // const today = new Date();
     // const dayOfMonth = today.getUTCDate();
     // console.log(today)
 
 });
+
 
 // const scroller = document.getElementById("#bio1");
 // scroller.scrollIntoViewIfNeeded(); 

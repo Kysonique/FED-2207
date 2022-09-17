@@ -37,7 +37,13 @@
     "posts" : [
         {
             "message" : "text",
-            "uid" : ""
+            "uid" : "0"
+
+        },
+
+        {
+            "message" : "text",
+            "uid" : "1"
 
         }
     ]
