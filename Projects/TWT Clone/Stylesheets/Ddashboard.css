@@ -21,3 +21,25 @@
 
 }
 
+@media screen and (max-width: 992px) {
+    #advertising{
+        display: none;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    /* #postcard div{
+flex-direction: ;    } */
+
+    #leftside{
+        display: none;
+    }
+
+}

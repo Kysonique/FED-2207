@@ -3,6 +3,16 @@
     grid-template-columns: auto 40%;
 }
 
-/* #landing div{
-    
-} */
+@media screen and (max-width: 992px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner{
+        width: 35%;
+        height: 25%;
+    }
+}
