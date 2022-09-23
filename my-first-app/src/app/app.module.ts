@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { MainComponent } from './main/main.component';
-import { MobileComponent } from './mobile/mobile.component';
+import { GoodCarsComponent } from './components/good-cars/good-cars.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    GoodCarsComponent,
     MainComponent,
-    MobileComponent
   ],
   imports: [
     BrowserModule
@@ -17,4 +17,5 @@ import { MobileComponent } from './mobile/mobile.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
+
