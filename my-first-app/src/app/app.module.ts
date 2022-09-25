@@ -2,14 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { GoodCarsComponent } from './components/good-cars/good-cars.component';
-import { MainComponent } from './components/main/main.component';
+import { SuvsComponent } from './components/suvs/suvs.component';
+import { SedansComponent } from './components/sedans/sedans.component';
+import { LuxuryComponent } from './components/luxury/luxury.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GoodCarsComponent,
-    MainComponent,
+    SuvsComponent,
+    SedansComponent,
+    LuxuryComponent,
   ],
   imports: [
     BrowserModule

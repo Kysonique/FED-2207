@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { LuxuryComponent } from './components/luxury/luxury.component';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +6,5 @@ import { LuxuryComponent } from './components/luxury/luxury.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-first-app';
+  title = 'horror-film-app';
 }
-
