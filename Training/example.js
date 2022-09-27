@@ -13,3 +13,4 @@ let a = true
 colors.forEach(element => {
     console.log(element)
 });
+

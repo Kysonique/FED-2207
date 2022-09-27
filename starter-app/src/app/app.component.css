@@ -1,0 +1,78 @@
+/* whole page styles*/
+/* .nav, .footer{
+    font-family: Monospace;
+} */
+
+/* navigation bar */
+#div1{
+    height: 96px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+}
+
+#div1 h3{
+    color: hsl(216, 17%, 35%);
+}
+#div1 p{
+    color: hsl(0, 0%, 59%) ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+button{
+    color: hsl(214, 37%, 96%);
+    background-color: hsl(40, 97%, 58%);
+    border: none;
+    height: 53px;
+    width: 180px;
+    left: 1095px;
+    top: 22px;
+
+}
+
+/* footer styles */
+#foot1{
+    background-color: hsl(216, 17%, 35%);
+    width: 1440px;
+    height: 300px;
+    color: hsl(0, 0%, 100%);
+}
+
+#foot1 p{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+#foot2{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(215, 14%, 23%);
+    width: 1440px;
+    height: 96px;
+}
+
+#foot2 p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color:hsl(217, 12%, 62%);
+}
+
+#foot2 h3{
+    color: hsl(0, 0%, 100%);
+    width: 107.82px;
+    height: 28.56px;
+}
