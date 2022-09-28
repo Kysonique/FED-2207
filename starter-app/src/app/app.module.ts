@@ -7,6 +7,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CareersComponent } from './components/careers/careers.component';
 import { IndexComponent } from './components/index/index.component';
 import { LocationsComponent } from './components/locations/locations.component';
+import { AppRoutingModule } from './components/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LocationsComponent } from './components/locations/locations.component';
     LocationsComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

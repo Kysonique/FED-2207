@@ -76,3 +76,10 @@ button{
     width: 107.82px;
     height: 28.56px;
 }
+
+@media only screen and (max-width: 600px) {
+    #foot2{
+        display: flex;
+        flex-direction: column;
+    }
+}
